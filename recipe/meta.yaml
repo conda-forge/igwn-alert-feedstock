@@ -26,8 +26,9 @@ requirements:
     - python >=3.6
     - setuptools
   run:
-    - hop-client
+    - hop-client 0.5.0.*
     - python >=3.6
+    - python-confluent-kafka 1.7.0.*
     - safe-netrc
 
 test:
