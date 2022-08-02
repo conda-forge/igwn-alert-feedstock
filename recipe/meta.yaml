@@ -12,8 +12,6 @@ source:
     # remove setuptools requirement
     # (since conda build doesn't use pkg_resources for entry points)
     - requirements.patch
-    # fix hardcoded version number in test
-    - test-version.patch
 
 build:
   entry_points:
