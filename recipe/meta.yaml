@@ -1,5 +1,5 @@
 {% set name = "igwn-alert" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/igwn-alert-{{ version }}.tar.gz
-  sha256: a61239af28c33a12d5c6c6628a85e0b6e261089afeb14e6db5074f56f5877767
+  sha256: 66df56f88e6b7d7b50be152353ca753df254250342276ed055d7ed3f1cea499d
   patches:
     # remove setuptools requirement
     # (since conda build doesn't use pkg_resources for entry points)
