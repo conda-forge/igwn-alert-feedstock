@@ -9,9 +9,8 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/igwn-alert-{{ version }}.tar.gz
   sha256: 66df56f88e6b7d7b50be152353ca753df254250342276ed055d7ed3f1cea499d
   patches:
-    # remove setuptools requirement
-    # (since conda build doesn't use pkg_resources for entry points)
-    - requirements.patch
+    # update requirements
+    - 0001-clean-up-requirements.patch
 
 build:
   entry_points:
