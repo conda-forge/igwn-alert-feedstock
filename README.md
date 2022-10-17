@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/igwn-alert-feed
 
 Summary: IGWN Alert Network
 
-Development: https://git.ligo.org/lscsoft/igwn-alert/
+Development: https://git.ligo.org/computing/igwn-alert/client.git
 
 Documentation: https://igwn-alert.readthedocs.io/
 
