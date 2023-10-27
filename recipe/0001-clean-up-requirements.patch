@@ -1,4 +1,4 @@
-From d694fac56f7dd9ac389bfea6ff76e3dbf0215911 Mon Sep 17 00:00:00 2001
+From caad48ff4cfa4a0b9b5edbb55a0756535f431d2e Mon Sep 17 00:00:00 2001
 From: "duncan.macleod" <duncan.macleod@ligo.org>
 Date: Mon, 26 Sep 2022 17:06:12 +0100
 Subject: [PATCH] clean up requirements
@@ -9,17 +9,17 @@ conda package doesn't need setuptools at runtime
  1 file changed, 1 deletion(-)
 
 diff --git a/setup.py b/setup.py
-index 3e4b7d6..95b0377 100755
+index a1d7a21..e7a37bf 100755
 --- a/setup.py
 +++ b/setup.py
-@@ -68,7 +68,6 @@ setup(
-     python_requires=">=3.6",
-     setup_requires=["setuptools"],
-     install_requires=[
--        "setuptools",
-         "hop-client>=0.6.0",
-         "confluent-kafka>=1.7.0",
+@@ -33,7 +33,6 @@ if sys.version_info > (3, 7):
+         "hop-client>=0.7.0",
+         "pyopenssl>=23.0.0",
          "safe-netrc",
+-        "setuptools",
+     ],
+ else:
+     install_requires = [
 -- 
-2.35.3
+2.41.0
 

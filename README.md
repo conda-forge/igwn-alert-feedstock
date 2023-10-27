@@ -1,11 +1,11 @@
-About igwn-alert
-================
+About igwn-alert-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/igwn-alert-feedstock/blob/main/LICENSE.txt)
 
 Home: https://igwn-alert.readthedocs.io/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/igwn-alert-feedstock/blob/main/LICENSE.txt)
 
 Summary: IGWN Alert Network
 
