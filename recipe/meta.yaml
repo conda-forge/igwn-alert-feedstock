@@ -28,7 +28,7 @@ requirements:
     - adc-streaming >=2.3.0
     - hop-client >=0.7.0
     - pyopenssl >=23.0.0
-    - python >=3.6,<3.10.0a0
+    - python >=3.6
     - python-confluent-kafka >=2.0.0
     - safe-netrc
 
