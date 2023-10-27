@@ -1,5 +1,5 @@
 {% set name = "igwn-alert" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/igwn-alert-{{ version }}.tar.gz
-  sha256: cbfb9223adcd29323ff48462ac47be8352c8845ada83a1e0201f45c5848d7633
+  sha256: 088398f9485395655de2daa4f00e4bc1da848424acd9c100e9cfa7fc00c795c9
   patches:
     # update requirements
     - 0001-clean-up-requirements.patch
@@ -28,7 +28,7 @@ requirements:
     - adc-streaming >=2.3.0
     - hop-client >=0.7.0
     - pyopenssl >=23.0.0
-    - python >=3.6,<3.10.0a0
+    - python >=3.6
     - python-confluent-kafka >=2.0.0
     - safe-netrc
 
