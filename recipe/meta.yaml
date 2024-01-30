@@ -1,5 +1,5 @@
 {% set name = "igwn-alert" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/igwn-alert-{{ version }}.tar.gz
-  sha256: 088398f9485395655de2daa4f00e4bc1da848424acd9c100e9cfa7fc00c795c9
+  sha256: 018393a42a3c4d6cbebb788fbf76797397e518d0b63b8944b516682215585e23
   patches:
     # update requirements
     - 0001-clean-up-requirements.patch
