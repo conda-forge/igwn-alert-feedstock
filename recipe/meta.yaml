@@ -22,13 +22,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
     - adc-streaming >=2.3.0
     - hop-client >=0.7.0
     - pyopenssl >=23.0.0
-    - python >=3.6
+    - python >={{ python_min }}
     - python-confluent-kafka >=2.0.0
     - safe-netrc
 
@@ -36,6 +36,7 @@ test:
   requires:
     - pip
     - pytest
+    - python {{ python_min }}
   commands:
     # check requirements
     - python -m pip check igwn-alert
